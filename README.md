@@ -1,3 +1,3 @@
 # loni-alnor.github.io
 
-<a href="loni-alnor.github.io/folder/Alnor_Portfolio.pdf" target="_blank">PDF.</a>
+<embed src="https://loni-alnor.github.io/Alnor_Portfolio.pdf" type="application/pdf" />
