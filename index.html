@@ -20,7 +20,7 @@
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(6, 1fr);
 	grid-column-gap: 0px;
-	grid-row-gap: px;
+	grid-row-gap: 0px;
 	padding: 40px;
 }
 .div1 {
@@ -78,9 +78,6 @@ p {
 	font-size: 20pt;
 	line-height: 20px;
 }
-a:hover {
-	color: gray;
-}
 
 footer {
 	width: 100%;
@@ -94,17 +91,26 @@ footer {
 
 footer a {
 	font-size: 30px;
+	color:black;
 	text-decoration: none;
 	margin: 50px;
 }
+a:hover {
+	color: gray;
+}
 
-	
 	</style>
 	
 
 <html>
 
 <body>
+	
+	<div class="empty">
+		<p></p>
+			<p></p>
+	</div>
+	
   <div class="parent">
     <div class="div1">
       <div class="titles">
@@ -136,8 +142,5 @@ footer a {
 </body>
 
 <footer>
-	<p></p>
-  <a style="color: black;"href="medium.com/@loni4745">MEDIUM</a>
-  <a style="color: black;href="www.linkedin.com/in/lonialnor">LINKEDIN</a>
-  <a style="color: black;href="#contact">EMAIL</a>
+	
 </footer>
