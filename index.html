@@ -4,69 +4,60 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-  
-  <style>
-html{
-   font-family: 'Poppins';font-size: 22px;
-  height:100%;
-  width:100%;
+ 
+	<style>
+   html {
+  font-family: "Poppins";
+  font-size: 22px;
+  height: 100%;
+  width: 100%;
 }
 
-.active{
- font-weight:bold;
+.active {
+  font-weight: bold;
 }
-.inactive{
-  font-weight:300;
+.inactive {
+  font-weight: 300;
 }
-
-.tile{
-  margin-left:50px;
-}
-
 
 .parent {
-  
- 
-border-color: green;
-display: grid;
-grid-template-columns: repeat(7, 1fr);
-grid-template-rows: repeat(6, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: px;
+  border-color: green;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: px;
 }
 
-.div1 { grid-area: 1 / 1 / 6 / 3; 
-border-style: dotted;}
-.div2 { 
-  grid-area: 1 / 3 / 6 / 9; 
+.div1 {
+  grid-area: 1 / 1 / 6 / 3;
+  border-style: dotted;
+	padding-left:50px;
+}
+.div2 {
+  grid-area: 1 / 3 / 6 / 9;
   border-style: solid;
 }
 
-.div3 { grid-area: 6 / 1 / 7 / 8; 
+.div3 {
+  grid-area: 6 / 1 / 7 / 8;
   border-style: solid;
-  background-color: #D7BEBE;
-  margin-top; 5px;
-  align-content: center;
- align-items: end;
 }
 
-iframe{
-  display:flex; 
-justify-content:center; 
-align-items:center; 
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color:#D7BEBE;
-    text-align: center;
-    font-color:white;
-    font-size: large;
-    text-decoration: none;
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #d7bebe;
+  text-align: center;
+  font-color: white;
+  font-size: large;
+  text-decoration: none;
 }
 
 .div3 ul {
@@ -76,27 +67,23 @@ footer{
   text-align: center;
   border-style: dotted;
   height: 110px;
- 
 }
 
 .div3 li {
   display: inline;
-  padding:0px;
-  margin:50px;
-   border-style: solid;
-  
-
+  padding: 0px;
+  margin: 50px;
+  border-style: solid;
 }
 
-.div3 a{
-   font-size: 30px;
+.div3 a {
+  font-size: 30px;
   text-decoration: none;
-
 }
-  .div1 a{
-   font-size: 30px;
+.div1 a {
+  font-size: 30px;
   text-decoration: none;
-    color:black;
+  color: black;
 }
 
 a:hover {
@@ -109,43 +96,53 @@ a:visited {
   background-color: #778899;
 }
 
-div3 a{
-   color: white;
+div3 a {
+  color: white;
 }
-</style>
-  
+
+h1{
+	line-height:10px;
+	padding-top:90px;
+	font-size:45pt;
+}
+
+h4{
+	font-size:25pt;
+	line-height:70px;
+}</style>
 <body>
-<div class="parent">
-  <div class="div1">
-    <div class="tile">
-    <h1>Loni Alnor</h1>
-    <h4>UX Designer</h3></div>
-    
-    <br></br>
-<ul><a href="#section1"class="active">Portfolio</a> </ul>
-    
-      <ul><a href="#section2"class="inactive">Resume</a> </ul>
+  <div class="parent">
+    <div class="div1">
+      <div class="titles">
+        <ul>
+          <h1>Loni Alnor</h1>
+        </ul>
+        <ul>
+          <h4>UX Designer</h3>
+        </ul>
+      </div>
+
+
+      <ul><a href="#section1" class="active">Portfolio</a> </ul>
+
+      <ul><a href="#section2" class="inactive">Resume</a> </ul>
 
       </ul>
 
+    </div>
+    <div class="div2">
+
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1aNFW58CFJxbMAX13lFPjEwQYczfpl0TAqlvtEu-jqFbKaqjhMyq1AHRg5RCxHAGkCr66TkxP0nVI/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+
+    <div class="div3">
+
+    </div>
   </div>
-  <div class="div2">
+</body>
 
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1aNFW58CFJxbMAX13lFPjEwQYczfpl0TAqlvtEu-jqFbKaqjhMyq1AHRg5RCxHAGkCr66TkxP0nVI/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  </div>
-  
-  <div class="div3">
-
-    <footer>
-      <ul>
-        <a href="medium.com/@loni4745">MEDIUM</a>
-        <a href="www.linkedin.com/in/lonialnor">LINKEDIN</a>
-       <a href="#contact">EMAIL</a>
-      </ul>
-
-      </footer>
-      </body>
-    
-  </div>
-</div>
+<footer>
+  <a href="medium.com/@loni4745">MEDIUM</a>
+  <a href="www.linkedin.com/in/lonialnor">LINKEDIN</a>
+  <a href="#contact">EMAIL</a>
+</footer>
