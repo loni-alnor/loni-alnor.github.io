@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
-  
   <style>
   
 html{
    font-family: 'Poppins';font-size: 22px;
 }
 
-a{
- 
+.active{
+ font-weight:bold;
 }
 
 .parent {
-  
- 
+
 border-color: green;
 display: grid;
 grid-template-columns: repeat(7, 1fr);
@@ -40,7 +36,7 @@ border-style: dotted;}
   background-color: #D7BEBE;
   margin-top; 5px;
   align-content: center;
- 
+ align-items: end;
 }
 
 iframe{
@@ -68,9 +64,9 @@ footer{
   margin: 0;
   padding: 0;
   text-align: center;
-   border-style: dotted;
+  border-style: dotted;
   height: 110px;
-   font-color:white;
+ 
 }
 
 .div3 li {
@@ -78,32 +74,29 @@ footer{
   padding:0px;
   margin:50px;
    border-style: solid;
-  font-color:white;
- 
+  
 
 }
 
 .div3 a{
    font-size: 30px;
   text-decoration: none;
-  font-color: white;
+
 }
   
-}
   </style>
   
-  
-  
-  
 </head>
-
+<body>
 <div class="parent">
   <div class="div1">
     <h1>Loni Alnor</h1>
     <h4>UX Designer</h3>
-
-      <li class="active"><a href="#section1">Portfolio</a></li>
-      <li><a href="#section2">Resume</a></li>
+    
+    <br></br>
+<ul><a href="#section1"class="active">Portfolio</a> </ul>
+    
+      <ul><a href="#section2">Resume</a></ul>
 
       </ul>
 
@@ -113,6 +106,7 @@ footer{
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1aNFW58CFJxbMAX13lFPjEwQYczfpl0TAqlvtEu-jqFbKaqjhMyq1AHRg5RCxHAGkCr66TkxP0nVI/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   </div>
+  
   <div class="div3">
 
     <footer>
@@ -121,7 +115,7 @@ footer{
         <li><a href="www.linkedin.com/in/lonialnor">LINKEDIN</a></li>
         <li><a href="#contact">EMAIL</a></li>
       </ul>
-
+</body>
     </footer>
   </div>
 </div>
