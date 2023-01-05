@@ -1,87 +1,65 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Loni Alnor</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+	
+<style>
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins';font-size: 22px;
+}
 
+.top {
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #fdfdfd;
-      height: 100%;
+  padding: 50px;
+}
+
+.menu {
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+  align-items: center;
+}
+.content {
+	color: blue;
     }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
-  </style>
+ </style>
 </head>
+	
+	
+	
 <body>
+<div class="content">
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4>Loni Alnor</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <br></br> <br></br>
-        <li class="active"><a href="#section1">Portfolio</a></li>
-        <li><a href="#section2">Resume</a></li>
-       
-      </ul><br>
-      <div class="input-group">
-        
-        
-          
-            <span class="glyphicglyphicon-search"></span>
-          </button>
-        </span>
-      </div>
-    </div>
+  <div class="top"> </div>
 
-    <div class="col-sm-9">
-      
-      <hr>
-      <h2>CONTENT</h2>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1aNFW58CFJxbMAX13lFPjEwQYczfpl0TAqlvtEu-jqFbKaqjhMyq1AHRg5RCxHAGkCr66TkxP0nVI/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
-	  
-      
-      
-      
+  <div class="menu">
 
-     
-    
-    </div>
+          <br></br> <br></br>
+          <li class="active"><a href="#section1">Portfolio</a></li>
+          <li><a href="#section2">Resume</a></li>
+
+        </ul>
   </div>
+
+  <div class="main">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1aNFW58CFJxbMAX13lFPjEwQYczfpl0TAqlvtEu-jqFbKaqjhMyq1AHRg5RCxHAGkCr66TkxP0nVI/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+  </div>
+
 </div>
 
-<footer class="container-fluid">
-  <p>Footer Text</p>
-</footer>
-
 </body>
+
+<footer class="footer">Footer</footer>
 </html>
