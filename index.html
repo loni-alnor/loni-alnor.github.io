@@ -3,19 +3,30 @@
 <head>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
+</head>
   
+  <style>
 html{
    font-family: 'Poppins';font-size: 22px;
+  height:100%;
+  width:100%;
 }
 
 .active{
  font-weight:bold;
 }
+.inactive{
+  font-weight:300;
+}
+
+.tile{
+  margin-left:50px;
+}
+
 
 .parent {
-
+  
+ 
 border-color: green;
 display: grid;
 grid-template-columns: repeat(7, 1fr);
@@ -51,8 +62,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: lightslategray;
-    color: white;
+    background-color:#D7BEBE;
     text-align: center;
     font-color:white;
     font-size: large;
@@ -83,20 +93,38 @@ footer{
   text-decoration: none;
 
 }
+  .div1 a{
+   font-size: 30px;
+  text-decoration: none;
+    color:black;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #778899;
+}
+
+div3 a{
+   color: white;
+}
+</style>
   
-  </style>
-  
-</head>
 <body>
 <div class="parent">
   <div class="div1">
+    <div class="tile">
     <h1>Loni Alnor</h1>
-    <h4>UX Designer</h3>
+    <h4>UX Designer</h3></div>
     
     <br></br>
 <ul><a href="#section1"class="active">Portfolio</a> </ul>
     
-      <ul><a href="#section2">Resume</a></ul>
+      <ul><a href="#section2"class="inactive">Resume</a> </ul>
 
       </ul>
 
@@ -111,11 +139,13 @@ footer{
 
     <footer>
       <ul>
-        <li><a href="medium.com/@loni4745">MEDIUM</a></li>
-        <li><a href="www.linkedin.com/in/lonialnor">LINKEDIN</a></li>
-        <li><a href="#contact">EMAIL</a></li>
+        <a href="medium.com/@loni4745">MEDIUM</a>
+        <a href="www.linkedin.com/in/lonialnor">LINKEDIN</a>
+       <a href="#contact">EMAIL</a>
       </ul>
-</body>
-    </footer>
+
+      </footer>
+      </body>
+    
   </div>
 </div>
